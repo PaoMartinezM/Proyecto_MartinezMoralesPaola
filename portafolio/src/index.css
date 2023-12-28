@@ -80,10 +80,50 @@ code {
 }
 .contenedor1 p{
  font-size: 20px;
- margin: 2rem;
+ margin-left: 2rem;
+ margin-right: 2rem;
 }
 .contenedor2{
   display: flex;
   flex-direction: column;
   width: 50%;
+  align-items: center;
+}
+.contenedor3{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-self: center;
+}
+.contenedor4{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-self: left;
+}
+.img-P{
+  width: 30%;
+  align-self: center;
+
+}
+
+.gif1{
+  width: 50%;
+  align-self: center;
+  border-radius: 50%;
+}
+
+.apt{
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.item-ex{
+  width: 50px;
+  border-radius: 20%;
+  margin-right: 2rem
+}
+.ed h6{
+  margin: 0;
 }
