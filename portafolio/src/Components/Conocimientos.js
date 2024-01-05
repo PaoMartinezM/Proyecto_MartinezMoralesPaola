@@ -17,7 +17,7 @@ const programmingLanguages = [
   'Postman'
 ];
 
-export default function GutterlessList() {
+export default function GutterList() {
   const leftColumn = programmingLanguages.slice(0, 5);
   const rightColumn = programmingLanguages.slice(5);
 

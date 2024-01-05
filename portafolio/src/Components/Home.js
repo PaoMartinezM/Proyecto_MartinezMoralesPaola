@@ -3,7 +3,7 @@ import '../index.css';
 import ButtonAppBar from './Header'
 import InteractiveList from './Aptitudes'
 import GutterlessList from './Conocimientos'
-
+import GutterList from './Herramientas'
 import FolderList from './Cursos'
 import yo from '../Imagenes/yo.jpg';
 import gif1 from '../Imagenes/img1.gif';
@@ -11,7 +11,7 @@ import NestedList from './Experiencia';
 import RoomIcon from '@mui/icons-material/Room';
 import TodayIcon from '@mui/icons-material/Today';
 import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
-
+import Footer from './Footer';
 const Home = () => {
   return (
     <div className="App">
@@ -39,6 +39,7 @@ const Home = () => {
       <EmojiEventsIcon style={{ marginRight: '8px' }} />
       <h6>1er Lugar Hackaton - UNAM FES Acatlán iOS Development Lab 2022</h6>
     </div><h4 style={{ margin: '0px' }}>Herramientas</h4>
+    <div className='contenedorH'><GutterList/></div> 
          </div>
       
         <div className='contenedor2'>
@@ -53,8 +54,8 @@ y Computación</h6><h6>
         <h4>Cursos y Certificaciones</h4>
         <FolderList/>
        </div>
-      </div>
-    </div>
+      </div>  
+    </div> <Footer/>
   </div>
   );
 };
