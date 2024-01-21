@@ -16,9 +16,7 @@ const Home = () => {
   return (
     <div className="App">
          <ButtonAppBar/>
-    <div className="App-Inicio">
-   
-    
+    <div className="App-Inicio">  
       <h4>
         Sobre Mí
       </h4>
@@ -30,8 +28,8 @@ const Home = () => {
            <div className='apt'> 
             <div className='contenedor4'><h4>Aptitudes:</h4>
 
-<InteractiveList/> 
-</div>
+      <InteractiveList/> 
+        </div>
            <div className='contenedor3'>
            <img src={gif1} className="gif1" alt="logo" /> </div>
          </div><h4 style={{ margin: '0px' }}>Logros</h4>
@@ -44,9 +42,8 @@ const Home = () => {
       
         <div className='contenedor2'>
        <div className='ed'><h4>Educación</h4>
-        <h6>Licenciatura en Matemáticas Aplicadas
-y Computación</h6><h6>
-<TodayIcon/> 2019 - 2023 <RoomIcon/> UNAM</h6></div> 
+        <h6>Licenciatura en Matemáticas Aplicadas y Computación</h6><h6>
+        <TodayIcon/> 2019 - 2023 <RoomIcon/> UNAM</h6></div> 
           <h4>Experiencia</h4>
         <NestedList/>
         <h4>Conocimientos Técnicos</h4>

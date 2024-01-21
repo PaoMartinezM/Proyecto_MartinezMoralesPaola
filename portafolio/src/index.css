@@ -27,7 +27,6 @@ margin-top: 0%;
 }
 
 
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -67,7 +66,6 @@ margin-top: 0%;
   margin-bottom: 100%;
 }
 
-
 .Btn-Entrar:hover {
   background-color: #843B62;
   color: #F8F7F5;
@@ -84,6 +82,12 @@ margin-top: 0%;
 .contenedor{
   display: flex;
   flex-direction: row;
+  width: 100%;
+}
+.contenedor-ad{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   width: 100%;
 }
 .contenedor1{
@@ -157,4 +161,31 @@ align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: #0B032D;
+}
+
+.contact{
+  width:10%;
+}
+
+.Btn-Entrar2 {
+  display: inline-block;
+  padding: 20px 30px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 30px;
+  color: #0B032D;
+  background-color: #D4398A;
+  transition: background-color 0.3s, color 0.3s;
+  
+}
+.Btn-Entrar2:hover {
+  background-color: #843B62;
+  color: #F8F7F5;
+}
+.cont-c{
+  display: flex;
+  flex-direction: row;
 }
